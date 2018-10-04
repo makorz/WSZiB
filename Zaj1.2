@@ -1,0 +1,30 @@
+public class second {
+
+    // Given 3 int values, a b c, return their sum. However, if one of the values is 13 then it does not count towards
+    // the sum and values to its right do not count. So for example, if b is 13 then both b and c do not count
+
+    public static void main(String[] args) {
+
+        System.out.println(sumABC(10,20,30));
+        System.out.println(sumABC(13,15,19));
+        System.out.println(sumABC(-10,13,15));
+
+    }
+
+    public static int sumABC(int a, int b, int c){
+        int sum = 0;
+        int x = a;
+        for(int i = 1; i <=3; i++){
+            if(x == 13){
+                return sum;
+            }
+            sum += x;
+            if (i == 1){
+                x = b;
+            }else if (i == 2){
+                x = c;
+            }
+        }
+        return sum;
+    }
+}
