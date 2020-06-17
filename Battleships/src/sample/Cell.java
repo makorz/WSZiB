@@ -1,5 +1,7 @@
 package sample;
 
+// Usuwanie niepotrzebnego bełkotu w komentarzach
+
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
