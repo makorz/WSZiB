@@ -1,5 +1,7 @@
 package sample;
 
+// DO tego uczę się na tym githuba hehehe
+
 import java.util.ArrayList;
 import java.util.List;
 import javafx.event.EventHandler;
