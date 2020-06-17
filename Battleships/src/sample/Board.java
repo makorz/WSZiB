@@ -1,7 +1,5 @@
 package sample;
 
-// DO tego uczę się na tym githuba hehehe
-
 import java.util.ArrayList;
 import java.util.List;
 import javafx.event.EventHandler;
@@ -141,6 +139,4 @@ public class Board extends Parent {
     private boolean isValidPoint(double x, double y) {
         return x >= 0 && x < 10 && y >= 0 && y < 10;
     }
-
-
 }
